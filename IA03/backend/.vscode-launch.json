@@ -1,0 +1,13 @@
+{
+  "name": "IA03-backend",
+  "type": "node",
+  "request": "launch",
+  "runtimeExecutable": "npm",
+  "runtimeArgs": ["run", "start:dev"],
+  "cwd": "${workspaceFolder}/IA03/backend",
+  "console": "integratedTerminal",
+  "restart": true,
+  "protocol": "auto",
+  "port": 9229,
+  "autoAttachChildProcesses": true
+}
